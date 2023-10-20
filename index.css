@@ -139,6 +139,8 @@ body {
     height: 25px;
     margin-left: 20px;
     margin-top: 3px;
+    font-size: 12px;
+
 }
 
 #password-length {
