@@ -14,8 +14,7 @@ body {
 
 @media (max-width: 980px) {
     #password-container {
-        flex-direction: column;
-        justify-content: start;
+        height: 200px;
     }
 
     #second-password {
