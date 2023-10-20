@@ -14,7 +14,7 @@ body {
 
 @media (max-width: 980px) {
     #password-container {
-        height: 200px;
+        width: 250px;
     }
 
     #second-password {
