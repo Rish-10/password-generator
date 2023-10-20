@@ -12,20 +12,7 @@ body {
     margin-bottom: 50px;
 }
 
-@media (max-width: 980px) {
-    #password-container {
-        width: 250px;
-    }
 
-    #second-password {
-        margin-left: 0px;
-        margin-top: 35px;
-    }
-
-    #first-password {
-        margin-right: 0px;
-    }
-}
 
 #random-password {
     color: #4ADF86;
