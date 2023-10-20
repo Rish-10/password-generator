@@ -153,7 +153,8 @@ body {
 
 
 #lettersToggle {
-    width: 40px;
+    width: 20px;
+    height: 20px;
     background: transparent;
     border: none;
     color: white;
@@ -177,7 +178,8 @@ body {
 
 
 #numbersToggle {
-    width: 40px;
+    width: 20px;
+    height: 20px;
     background: transparent;
     border: none;
     color: white;
@@ -201,8 +203,8 @@ body {
 
 
 #symbolsToggle {
-    width: 12px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
     background: transparent;
     border: none;
     color: white;
