@@ -18,8 +18,12 @@ body {
     }
 
     #second-password {
-        margin-left: -12px; 
+        margin-left: 0px; 
         margin-top: 35px;
+    }
+
+    #first-password {
+        margin-right: 0px;
     }
 }
 
