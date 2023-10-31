@@ -57,9 +57,7 @@ function generatePasswords() {
     while (randomisedCharacters.length < characters.length)  
     
     characters = randomisedCharacters
-
-    console.log(characters)
-
+    
     if (letters.checked === false && numbers.checked === false && symbols.checked === false) {
         firstPassword = "Enter valid parameters"
         secondPassword = "Enter valid parameters"
