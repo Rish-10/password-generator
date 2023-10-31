@@ -24,6 +24,10 @@ function generatePasswords() {
     secondPassword = ""
     copyFirst.className = "empty"
     copySecond.className = "empty"
+    randomisedCharacters = []
+    randomisedCharactersIndexUsed = []
+
+
     if (letters.checked === true) {
         for (i = 0; i < lettersSet.length; i++) {
             characters.push(lettersSet[i])
@@ -39,6 +43,22 @@ function generatePasswords() {
             characters.push(symbolsSet[i])
         }
     }
+
+    do {
+        let x = Math.floor(Math.random() * characters.length)
+        do {
+            x = Math.floor(Math.random() * characters.length)
+        }
+        while (randomisedCharactersIndexUsed.includes(x))
+        randomisedCharactersIndexUsed.push(x)
+        randomisedCharacters.push(characters[x])
+
+    } 
+    while (randomisedCharacters.length < characters.length)  
+    
+    characters = randomisedCharacters
+
+    console.log(characters)
 
     if (letters.checked === false && numbers.checked === false && symbols.checked === false) {
         firstPassword = "Enter valid parameters"
