@@ -1,5 +1,5 @@
 # password-generator
-This is my own completely self-built, reliable password generator, created entirely on my own.
+This is my completely self-built, reliable password generator, created entirely on my own.
 
 I have included the ability to modify the parameters of the password, such as the length and type of characters used. I also added an extra layer of randomisation by mixing the order of characters in the list after the parameters are chosen. 
 
