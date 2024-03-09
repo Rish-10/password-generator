@@ -1,0 +1,258 @@
+@font-face {
+    src: url("BetinaSans-Bold.ttf");
+    font-family: BetinaBold;
+}
+
+body {
+    background: #1F2937;
+    color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: BetinaBold;
+    margin-bottom: 50px;
+}
+
+
+#random-password {
+    color: #4ADF86;
+}
+
+#title {
+    margin-top: 80px;
+    line-height: 35px;
+}
+
+#subtitle {
+    margin-top: -10px;
+    color: D5D4D8;
+}
+
+#generate-passwords {
+    margin-top: 35px;
+    background-color: #10B981;
+    color: white;
+    border: none; 
+    width: 140px; 
+    height: 35px;
+    padding: 8px 4px;
+    border-radius: 5px;
+}
+
+#line {
+    margin-top: 30px;
+    display: block; 
+    height: 2px; 
+    background-color: #2F3E53;
+}
+
+#password-container {
+    color: #55F991;
+    margin-top: 30px;
+    display: flex; 
+    justify-content: left;
+}
+
+#first-password {
+    margin-right: 12px;
+    min-width: 190px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-password {
+    margin-left: 12px;
+    min-width: 190px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#password-box-1 {
+    min-width: 190px; 
+    height: 35px; 
+    background-color: #273549;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#password1 {
+    min-width: 190px; 
+    height: 35px;
+    margin: auto;
+    padding: 5 10 0 10;
+}
+
+
+#password-box-2 {
+    min-width: 190px; 
+    height: 35px; 
+    background-color: #273549;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#password2 {
+    min-width: 190px; 
+    height: 35px;
+    margin: auto;
+    padding: 5 10 0 10;
+}
+
+
+
+#copyFirst {
+    margin-top: 15px;
+    background-color: #10B981;
+    color: white;
+    border: none; 
+    width: 80px; 
+    height: 25px;
+    padding: 4px 4px;
+    border-radius: 5px;
+    font-family: BetinaBold;
+}
+
+#copySecond {
+    margin-top: 15px;
+    background-color: #10B981;
+    color: white;
+    border: none; 
+    width: 80px; 
+    height: 25px;
+    padding: 4px 4px;
+    border-radius: 5px;
+    font-family: BetinaBold;
+}
+
+.empty {
+    display: none;
+}
+
+
+
+#passwordLength {
+    width: 35px;
+    background: transparent;
+    border: none;
+    color: white;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 14px;
+
+}
+
+#password-length {
+    display: flex;
+}
+
+#lengthText {
+    line-height: 0px;
+}
+
+
+
+
+#lettersToggle {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+#letters-toggle {
+    margin-top: 10px;
+    display: flex;
+    background-color: none;
+}
+
+#lettersText{
+    line-height: 0px;
+}
+
+
+
+
+
+#numbersToggle {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+#numbers-toggle {
+    margin-top: 10px;
+    display: flex;
+    background-color: none;
+}
+
+#numbersText{
+    line-height: 0px;
+}
+
+
+
+
+
+#symbolsToggle {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+#symbols-toggle {
+    margin-top: 10px;
+    display: flex;
+    background-color: none;
+}
+
+#symbolsText{
+    line-height: 0px;
+}
+
+
+#changeParameters {
+    margin-top: 75px;
+    background: none; 
+    color: white; 
+    border: none;
+    font-size: 20px;
+    font-family: BetinaBold;
+    padding-left: 3px; 
+
+}
+
+#settingsView {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#button-line {
+    display: flex; 
+    justify-content: space-between;
+}
+
+#createdBy {
+    margin-top: 35px;
+    height: 10px;
+    font-size: 11px;
+    padding-top: 15px;
+}
+
+
